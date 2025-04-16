@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#050350
+}
+.container{
+    
+        display: flex;
+        align-items: center;
+        
+        padding: 20px;
+        
+      
+}
+.img{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+.logo{
+    width: 100px;  /* Tamanho da logo — pode ajustar */
+  height: auto;  /* Mantém a proporção */
+  display: block;
+  margin: 20px 0 20px 20px;
+  left: 5px;
+  display: block;
+}
+.icons{
+    display: block;
+    width: 38px;
+    margin-left: 10px;
+}
+.login{
+  margin-top: 40px;
+}
+h1{
+ color: white;
+ padding: 10px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 30px;
+}
+p{
+    color: rgb(58, 58, 52);
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+.inicio{
+   
+    
+    
+}
+.bu{
+    padding:10px;
+    border-radius: 10px;
+    background-color: #050350;
+    color: gray;
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+    border:  1.5px solid rgb(136, 131, 131);
+}
+.bu:hover{
+    background-color: rgb(17, 83, 17);
+    color: white;
+  }
+.entrar{
+    padding:16px;
+    width: 100%;
+    background-color: rgb(58, 57, 57);
+    border-radius: 18px;
+    border: none;
+    border: 1.5px solid rgb(241, 233, 233);
+    
+    box-sizing: border-box;
+
+
+
+    
+
+}
+.checkbox{
+    padding: 16px;
+    font-size: 1px;
+    color: green;
+    cursor: pointer;
+
+}
+.checar{
+    padding: 16px;
+    font-size: 16px;
+    color: aquamarine;
+}
+span{
+    font-size: 15px;
+    color: rgb(97, 97, 94);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 12px;
+}
+.entrar02{
+  
+  justify-content: center;
+  align-items: center;    
+  height: 100vh;
+  padding: 12px;
+
+}
+input.entrar2{
+    
+    padding:16px;
+    width: 100%;
+    background-color: rgb(20, 92, 20);
+    border-radius: 18px;
+    border: none;
+    border: 1.5px solid gray;
+    
+    box-sizing: border-box;
+    cursor: pointer;
+    align-items: center;
+    
+}
+.entrar3 :hover{
+    
+}
+h2{
+    color: rgba(126, 123, 120, 0.466);
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    padding: 14px;
+}
+a{
+    color: beige;
+}
+.lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: rgb(140, 152, 161);
+    font-size: 12px;
+    padding: 30px;
+}
